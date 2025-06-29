@@ -1,40 +1,39 @@
+Quantum computers represent a potential revolution in computing. Unlike classical computers that use bits (binary values 0 or 1), quantum computers use qubits, which can exist in a state of 0, 1, or a superposition of both. This property allows quantum computers to process exponentially more information than traditional computers.
 
-Les ordinateurs quantiques représentent une révolution potentielle dans le domaine de l'informatique. Contrairement aux ordinateurs classiques qui utilisent des bits (valeurs binaires 0 ou 1), les ordinateurs quantiques utilisent des qubits, qui peuvent exister dans un état de 0, 1, ou une superposition des deux. Cette propriété permet aux ordinateurs quantiques de traiter une quantité d'informations exponentiellement supérieure à celle des ordinateurs traditionnels.
+### History
+The idea of quantum computing emerged in the 1980s. Renowned physicist Richard Feynman suggested that classical computers could not efficiently simulate quantum phenomena. In 1994, Peter Shor demonstrated an algorithm capable of factoring large integers in polynomial time, which had a major impact on modern cryptography. This algorithm proved that quantum computers could break current encryption systems.
 
-### Histoire
-L'idée de l'informatique quantique a émergé dans les années 1980. Richard Feynman, physicien renommé, a suggéré que les ordinateurs classiques ne pouvaient pas simuler efficacement les phénomènes quantiques. En 1994, Peter Shor a démontré un algorithme capable de factoriser des grands nombres entiers en temps polynomial, ce qui a eu un impact majeur sur la cryptographie moderne. Cet algorithme prouve que les ordinateurs quantiques pourraient casser les systèmes de chiffrement actuels.
+Since then, many companies such as IBM, Google, and D-Wave, as well as academic institutions, have heavily invested in the development of this technology.
 
-Depuis, de nombreuses entreprises comme IBM, Google, et D-Wave, ainsi que des institutions universitaires, ont investi massivement dans le développement de cette technologie.
+### How does a quantum computer work?
+Quantum computers rely on three major principles of quantum mechanics:
+1. **Superposition**: a qubit can be in multiple states simultaneously, enabling parallel computation.
+2. **Entanglement**: two entangled qubits can have dependent states, even if separated by a great distance.
+3. **Interference**: the probabilities of certain states can be amplified or canceled out depending on how the qubits are manipulated.
 
-### Comment fonctionne un ordinateur quantique ?
-Les ordinateurs quantiques reposent sur trois grands principes de la mécanique quantique :
-1. **Superposition** : un qubit peut être dans plusieurs états simultanément, ce qui permet le calcul parallèle.
-2. **Intrication (ou enchevêtrement)** : deux qubits intriqués peuvent avoir des états dépendants, même séparés par une grande distance.
-3. **Interférence** : les probabilités de certains états peuvent s’amplifier ou s’annuler selon les manipulations faites sur les qubits.
-
-Les qubits peuvent être réalisés avec différentes technologies :
-- Supraconducteurs (IBM, Google)
-- Ions piégés (IonQ)
+Qubits can be implemented using various technologies:
+- Superconductors (IBM, Google)
+- Trapped ions (IonQ)
 - Photons (Xanadu)
-- Points quantiques (Microsoft)
+- Quantum dots (Microsoft)
 
-Le traitement de l’information se fait via des **portes quantiques**, équivalentes aux portes logiques classiques, mais adaptées au monde quantique. Un algorithme quantique est donc une suite de manipulations de ces qubits à travers un circuit quantique.
+Information is processed through **quantum gates**, similar to classical logic gates but adapted to the quantum world. A quantum algorithm is thus a sequence of manipulations of these qubits through a quantum circuit.
 
-### Capacités des ordinateurs quantiques
-Voici quelques domaines où les ordinateurs quantiques pourraient exceller :
-- **Cryptographie** : casser les clés RSA, mais aussi développer de nouvelles méthodes de chiffrement post-quantique.
-- **Optimisation** : résoudre des problèmes complexes dans la logistique, les transports ou la finance.
-- **Chimie et science des matériaux** : simuler des réactions moléculaires ou des structures chimiques impossibles à modéliser classiquement.
-- **Apprentissage automatique** : accélérer certains algorithmes de machine learning avec des versions quantiques.
+### Capabilities of quantum computers
+Quantum computers may excel in several domains:
+- **Cryptography**: breaking RSA keys, but also developing new post-quantum encryption methods.
+- **Optimization**: solving complex problems in logistics, transportation, or finance.
+- **Chemistry and materials science**: simulating molecular reactions or chemical structures that are impossible to model classically.
+- **Machine learning**: accelerating certain machine learning algorithms with quantum versions.
 
-### Limitations actuelles
-Malgré leur potentiel, les ordinateurs quantiques actuels sont encore à un stade expérimental. Voici quelques défis :
-- **Bruit et erreurs** : les qubits sont très sensibles à l’environnement.
-- **Décohérence** : perte rapide des états quantiques.
-- **Nombre de qubits limité** : difficile de construire des systèmes à grande échelle fiables.
-- **Correction d’erreurs quantiques** : un domaine de recherche actif.
+### Current limitations
+Despite their potential, today’s quantum computers are still experimental. Some challenges include:
+- **Noise and errors**: qubits are very sensitive to the environment.
+- **Decoherence**: rapid loss of quantum states.
+- **Limited number of qubits**: difficult to build large-scale reliable systems.
+- **Quantum error correction**: an active area of research.
 
-Les ordinateurs quantiques nécessitent aussi des conditions extrêmes pour fonctionner : températures proches du zéro absolu, systèmes de contrôle très précis, et environnement protégé des perturbations électromagnétiques.
+Quantum computers also require extreme conditions to function: near absolute zero temperatures, highly precise control systems, and environments shielded from electromagnetic interference.
 
 ### Conclusion
-L'informatique quantique pourrait transformer notre manière de résoudre certains problèmes scientifiques et industriels. Bien que de nombreux défis restent à relever, les progrès récents montrent que cette technologie se rapproche de plus en plus d'applications concrètes. C’est un domaine multidisciplinaire à la frontière entre physique, informatique, mathématiques et ingénierie.
+Quantum computing could transform how we solve certain scientific and industrial problems. Although many challenges remain, recent progress shows that this technology is gradually approaching real-world applications. It is a multidisciplinary field at the intersection of physics, computer science, mathematics, and engineering.
