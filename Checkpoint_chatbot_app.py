@@ -19,7 +19,7 @@ with open('quantum_computer_chatbot_EN.txt', 'r', encoding='utf-8') as f:
 sentences = sent_tokenize(text)
 
 # Préparation du prétraitement
-stop_words = set(stopwords.words())
+stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 def preprocess(sentence):
