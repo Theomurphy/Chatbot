@@ -5,12 +5,6 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-# Télécharger les ressources NLTK nécessaires (uniquement la première fois)
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-
 # Charger le texte (met le bon chemin vers ton fichier ici si besoin)
 with open('ordinateur_quantique.txt', 'r', encoding='utf-8') as f:
     raw_text = f.read().replace('\n', ' ')
