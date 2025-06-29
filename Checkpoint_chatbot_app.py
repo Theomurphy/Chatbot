@@ -14,10 +14,10 @@ nltk.download('averaged_perceptron_tagger')
 
 # Charger le texte (met le bon chemin vers ton fichier ici si besoin)
 with open('ordinateur_quantique.txt', 'r', encoding='utf-8') as f:
-    raw_text = f.read().replace('\n', ' ')
+    text = f.read().replace('\n', ' ')
 
 # Tokenisation en phrases
-sentences = sent_tokenize(raw_text)
+sentences = sent_tokenize(text, language='french')
 
 # Préparation du prétraitement
 stop_words = set(stopwords.words('french'))  # Modifié pour le français
