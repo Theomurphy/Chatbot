@@ -12,7 +12,7 @@ nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
 # Charger le texte (met le bon chemin vers ton fichier ici si besoin)
-with open('ordinateur_quantique.txt', 'r', encoding='utf-8') as f:
+with open('quantum_computer_chatbot_EN.txt', 'r', encoding='utf-8') as f:
     text = f.read().replace('\n', ' ')
 
 # Tokenisation en phrases
